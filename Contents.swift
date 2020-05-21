@@ -4,7 +4,7 @@
  * * * *
  ![Hi, it's me!](itsMe.png).
  
-Olá, eu meu chamo Alcides Junior, tenho 25 anos, sou Técnico em Informática pelo Instituto Federal do Ceará e atualmente curso Engenharia de Computação. Sou baterista e desenvolvedor iOS da Kobe.
+Olá, eu me chamo Alcides Junior, tenho 25 anos, sou Técnico em Informática pelo Instituto Federal do Ceará e atualmente curso Engenharia de Computação. Sou baterista e desenvolvedor iOS da Kobe.
  Participei do Apple Developer Academy e fui um dos 350 do mundo inteiro a ser Scholarship pela Apple e participei da WWDC 2019 em San Jose na California.
 Amo música, tecnologia e conversar com as pessoas.
  ***
