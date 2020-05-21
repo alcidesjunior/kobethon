@@ -174,7 +174,6 @@ public class DrumSet: SKScene{
             beatHihat()
         }
     }
-   
 
     public func mountDrumKit(){
         hihatE.anchorPoint = CGPoint(x:0,y:0)
@@ -223,18 +222,21 @@ public class DrumSet: SKScene{
         self.addChild(letterB)
         self.addChild(letterM)
     }
+
     public func beatSnare(){
         let animationSnare = SKAction.animate(with: [SKTexture(imageNamed: "snareBeated"),SKTexture(imageNamed: "snare")], timePerFrame: 0.1)
         self.snareE.run(animationSnare)
         let sound = SKAction.playSoundFileNamed("snare.mp3", waitForCompletion: false)
         run(sound)
     }
+
     public func beatKick(){
         let animationKick = SKAction.animate(with: [SKTexture(imageNamed: "kickBeated"),SKTexture(imageNamed: "kick")], timePerFrame: 0.1)
         self.kickE.run(animationKick)
         let sound = SKAction.playSoundFileNamed("kik.mp3", waitForCompletion: false)
         run(sound)
     }
+
     public func beatHihat(){
         let animationHihat = SKAction.animate(with: [SKTexture(imageNamed: "rideBeated"),SKTexture(imageNamed: "ride")], timePerFrame: 0.1)
         self.hihatE.run(animationHihat)

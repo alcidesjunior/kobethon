@@ -60,7 +60,6 @@ Amo música, tecnologia e conversar com as pessoas.
 
 import PlaygroundSupport
 import SpriteKit
-//import GameplayKit
 
 let sceneView = SKView(frame: CGRect(x:0 , y:0, width: 800, height: 600))
 let drumset = DrumSet(size: CGSize(width: 800, height: 600))
